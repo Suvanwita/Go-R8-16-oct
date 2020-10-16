@@ -1,0 +1,59 @@
+ html, body {
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    border-radius: 0px;
+    
+  }
+
+
+  canvas {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-top: 0%;
+  } 
+
+  .introduction{
+    border: 8px solid rgb(50, 221, 164); 
+  }
+
+  .Selection{
+    border: 8px solid rgb(50, 221, 164); 
+    height:700px;
+    display:none;
+  }
+
+  .Location{
+    border: 8px solid rgb(50, 221, 164); 
+    height:700px;
+    display:none;
+  }
+
+  .KolkataAirport{
+    border: 8px solid rgb(50, 221, 164); 
+    display:none;
+  }
+
+  .Dharamshila{
+    border: 8px solid rgb(50, 221, 164); 
+    display:none;
+  }
+
+  .EcoPark{
+    border: 8px solid rgb(50, 221, 164);
+    display:none; 
+  }
+
+  .EdenGarden{
+    border: 8px solid rgb(50, 221, 164); 
+    display:none;
+  }
+
+  .Helpline{
+    border: 8px solid rgb(50, 221, 164); 
+    display:none;
+    height:700px;
+  }
+
