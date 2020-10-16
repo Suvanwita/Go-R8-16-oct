@@ -35,7 +35,7 @@
         <input type="text" ></input>
 
         </br></br></br>
-        <button type="submit">Login</button>
+        <button type="submit" onclick="GoToSelect()">Login</button>
 
     </br></br></br>
        
@@ -69,7 +69,7 @@
            </optgroup>
         </select>
         </br></br></br>
-        <button type="submit">Next</button>
+        <button type="submit" onclick="GoToLocate()">Next</button>
     </br></br>
 
     </div>
@@ -80,25 +80,25 @@
     <div id="Location" class="Location">
         <h1>Welcome to your city</h1>
         <label for="airport">Kolkata Airport</label>
-        <input type="radio" id="location"></br>
+        <input type="radio" id="air" name="location"></br>
         <label for="hospital">Dharamshila Cancer Hospital</label>
-        <input type="radio" id="location"></br>
+        <input type="radio" id="hosp" name="location"></br>
         <label for="park">Eco Park</label>
-        <input type="radio" id="location"></br>
+        <input type="radio" id="park" name="location"></br>
         <label for="stadium">Eden Garden</label>
-        <input type="radio" id="location">  </br>
-        <button type="submit">Let's Go</button>
+        <input type="radio" id="garden" name="location">  </br>
+        <button type="submit" onclick="GoToPlace()">Let's Go</button>
     </br></br>               
     </div>
 
-</br></br>
+
 
     <div id="KolkataAirport" class="KolkataAirport">
         <label for="info"><h1>KOLKATA AIRPORT:Here you are</h1></label> </br></br>
         <img src="kolAirport.jpg" height="700px" width="1200px" >
         
     </div>
-</br></br>  
+ 
 
     <div id="Dharamshila" class="Dharamshila">
         <label for="info"><h1>DHARAMSHILA CANCER HOSPITAL:Here you are</h1></label> </br></br>
@@ -110,19 +110,19 @@
         <img src="dharamshila2.jpg" height="700px" width="1200px" >        
         
     </div>
-</br></br>
+
     <div id="EcoPark" class="EcoPark">
         <label for="info"><h1>ECO PARK:Here you are</h1></label> </br></br>
         <img src="eco.jpg" height="700px" width="1200px" >
        
     </div>
-</br></br>
+
     <div id="EdenGarden" class="EdenGarden">
         <label for="info"><h1>EDEN GARDEN:Here you are</h1></label> </br></br>
         <img src="edengarden.jpg" height="700px" width="1200px" >
         
     </div>
-</br></br>
+
 
     <div id="Helpline" class="Helpline">
         <h2>
@@ -138,6 +138,6 @@
 
 
 
-    
+   <script src="sketch.js"></script> 
     </body>
 </html>
